@@ -1,0 +1,180 @@
+.header h2{
+	text-align: center;
+}
+
+.nav{
+	background-color: teal;
+	overflow: hidden;
+}
+
+.nav a{
+	float: left;
+	padding: 15px 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: block;
+	font-size: 20px;
+}
+
+.nav a:hover{
+	background-color: rgb(255, 234, 114);
+	color: black;
+}
+
+.div Main{
+	text-align: center;
+}
+
+.Home img{
+	height: 850px;
+	width: 100%;
+	
+}
+
+.title{
+	text-align: center;
+}
+
+.title hr{
+	width: 300px;
+	margin: auto;
+	margin-top: 1px;
+	border: 2px solid #e56124;
+}
+
+.chicken{
+	margin-top: 50px;
+}
+
+.chicken img{
+	float: left;
+	width: 700px;
+	height: 400px;
+}
+.chicken p{
+	text-align: justify;
+	margin-left: 730px;
+}
+
+.clear{
+	clear:both;
+}
+
+.drink img{
+	float: right;
+	width: 700px;
+	height: 400px;
+}
+
+/* Our Menu */
+.ourmenu h1{
+	font-size: 30px;
+}
+
+.burger,.breakfast,.sandwiches,.coffeeanddrink{
+	display: grid; 
+	grid-template-columns: auto auto auto;
+}
+.burger img{
+	width: 350px;
+	height: 300px;
+	margin-left: 40px;
+}
+.breakfast img{
+	width: 350px;
+	height: 300px;
+	margin-left: 40px;
+}
+.sandwiches img{
+	width: 350px;
+	height: 300px;
+	margin-left: 40px;
+}
+.coffeeanddrink img{
+	width: 350px;
+	height: 300px;
+	margin-left: 40px;
+}
+
+/* About Our Food */
+.home_img img{
+	margin-left: 130px;
+}
+
+.aboutheading h1{
+	margin-left: 130px;
+	text-align: justify;
+}
+
+.aboutheading p{
+	margin-left: 130px;
+	text-align: justify;
+	line-height: 20px;
+}
+.about1{
+	display: flex;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.about2{
+	display: flex;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.button{
+	width: 90px;
+	height: 40px;
+	background-color: #ffbc0d;
+	color: black;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold; 
+}
+
+.button:hover{
+	background-color: red;
+	transition: all 0.5s;
+}
+
+/* Contact Page */
+
+.contact{
+	text-align: center;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+.text{
+	text-align: center;
+	font-size: x-large;
+}
+.contact1{
+	display: flex;
+	margin-top: 50px;
+}
+.question img{
+	width: 550px;
+	margin-left: 100px;
+}
+.question2 img{
+	width: 560px;
+	margin-left: 130px;
+}
+.question h3{
+	margin-left: 100px;
+}
+.question p{
+	margin-left: 100px;
+}
+
+.question2 h3{
+	margin-left: 130px;
+}
+.question2 p{
+	margin-left: 130px;
+}
+
+
+
+
